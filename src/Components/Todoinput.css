@@ -1,0 +1,65 @@
+.App {
+  text-align: center;
+}
+
+.main-div {
+  width: 50%;
+  margin: auto;
+ 
+  margin-top: 10%;
+ 
+}
+.center-div {
+  display: flex;
+ 
+  gap: 2rem;
+  box-sizing: border-box;
+  align-items: center;
+}
+
+.input-div > input {
+  font-size: 3rem;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border: none;
+  padding: 1rem;
+  border-radius: 1rem;
+}
+.plus {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border: none;
+  padding: 0.3rem;
+  border-radius: 1rem;
+  font-size: 4rem;
+  margin-right: 4rem;
+  cursor: pointer;
+}
+.items-list {
+  display: flex;
+
+  width: 47%;
+  margin: auto;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 40px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  font-size: xx-large;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 1rem;
+  padding-top: -2rem;
+}
+.complete-btn {
+  border: none;
+  outline: none;
+  background-color: none;
+}
+.trash-icon {
+  height: 2rem;
+  width: 2rem;
+  cursor: pointer;
+  background-color: none;
+
+}
+.trash-icon:hover {
+  color: red;
+}
