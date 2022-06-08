@@ -15,9 +15,9 @@ const Todolist = ({ todos, deleteTodo }) => {
         //console.log(el)
         return (
        
-            <div className="items-list" key={todos.id} >
+            <div className="items-list" key={el.id} >
              
-              <h3 key={todos.id}  >{el.value}</h3>
+              <h3>{el.value}</h3>
               <button className="complete-btn" onClick={()=>(deleteTodo(el.id))}>
                 <FaTrash className="trash-icon" title="Delete Todo" />
               
