@@ -18,7 +18,7 @@ setTodos([...todos, { id: Date.now(), value: el }]);
   return (
     <>
       <TodoInput addTodo={addTodo} />
-      <Todolist todos={todos} key={todos.id} deleteTodo={deleteTodo} />
+      <Todolist todos={todos} deleteTodo={deleteTodo} />
     </>
   );
 };
